@@ -1,11 +1,11 @@
 {
-    "name": "Dynamische Produktpreisberechnung",
+    "name": "Dynamische Produktpreisberechnung für Produkte mit Optionen",
     "archiveName": "robinthehood/attribute-price-update",
     "sourceDir": "new_files",
     "version": "auto",
 
-    "shortDescription": "Aktualisiert den Preis bei Änderung der Variante im Frontend.",
-    "description": "Aktualisiert den Preis bei Änderung der Variante im Frontend.",
+    "shortDescription": "Aktualisiert den Preis bei Änderung der Optionen/Variante im Frontend.",
+    "description": "Wenn ein Produkt Attribute, Optionen oder Varinaten hat, zeigt dieses Modul den Preis dynamisch bei einer Änderung der Attribut-Kombination aktualisiert im Frontend an. Das sorgt dafür, dass dem Kunden je nach Einstellung auf der Produkt-Detail-Seite kein Ab-Preis mehr angezeigt wird. Zusätzlich kann z. B. unter den Attributen ein weiterer Preis angezeigt werden, wenn der eigentliche Produktpreis nicht aktualisiert angezeigt werden soll. Auch die Verpackungseinheiten (VPEs) werden aktualisiert angezeigt.",
 
     "developer": "Robin Wieschendorf",
     "developerWebsite": "https://robinwieschendorf.de",
@@ -20,6 +20,11 @@
     },
 
     "modifiedCompatibility": [
+        "2.0.3.0",
+        "2.0.4.0",
+        "2.0.4.1",
+        "2.0.4.2",
+        "2.0.5.0",
         "2.0.5.1"
     ],
 
