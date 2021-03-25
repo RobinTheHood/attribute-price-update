@@ -1,0 +1,31 @@
+{
+    "name": "Dynamische Produktpreisberechnung",
+    "archiveName": "robinthehood/attribute-price-update",
+    "sourceDir": "new_files",
+    "version": "auto",
+
+    "shortDescription": "Aktualisiert den Preis bei Änderung der Variante im Frontend.",
+    "description": "Aktualisiert den Preis bei Änderung der Variante im Frontend.",
+
+    "developer": "Robin Wieschendorf",
+    "developerWebsite": "https://robinwieschendorf.de",
+    "website": "https://robinwieschendorf.de",
+
+    "price": "free",
+    "category": "promotion/marketing",
+
+    "require": {
+        "composer/autoload": "^1.0.0",
+        "robinthehood/modified-std-module": "^0.6.0"
+    },
+
+    "modifiedCompatibility": [
+        "2.0.5.1"
+    ],
+
+    "autoload": {
+        "psr-4": {
+            "ModifiedCommunityModules\\": "/vendor-no-composer/robinthehood"
+        }
+    }
+}
