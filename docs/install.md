@@ -90,16 +90,7 @@ Wenn du möchtest, dass noch ein weiteres Extra-Feld angezeigt wird, wo noch ein
 
 ```html
 ...
-{if $smarty.session.customers_status.customers_status_show_price != 0}
-    <div class="rth-attribute-price-update-extra">
-        <span>
-            {$smarty.const.RTH_ATTRIBUTE_PRICE_UPDATE_TEXT_PRICE_SELECTED}<br>
-            {$smarty.const.RTH_ATTRIBUTE_PRICE_UPDATE_TEXT_PRICE_PRO_PRODUCT}
-        </span>
-        <span class="current-price"></span><br>
-        <span class="current-price-vpe"></span>
-    </div>
-{/if}
+{$RTH_ATTRIBUTE_PRICE_UPDATE}
 ...
 ```
 
