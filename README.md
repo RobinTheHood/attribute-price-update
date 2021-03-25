@@ -1,7 +1,7 @@
-# modified Module: Dynamische Produktpreisberechnung für Produkte mit Optionen
+# modified Module: Attribute Price Update
 [![dicord](https://img.shields.io/discord/727190419158597683)](https://discord.gg/9NqwJqP)
 
-(DE): Programmcodeerweiterung: Standard Modul für Modified 
+(DE): Dynamische Produktpreisberechnung für Produkte mit Optionen
 
 Updates the price when the options / variants change in the front end.
 
