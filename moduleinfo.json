@@ -30,7 +30,7 @@
 
     "autoload": {
         "psr-4": {
-            "ModifiedCommunityModules\\": "/vendor-no-composer/robinthehood"
+            "RobinTheHood\\": "/vendor-no-composer/robinthehood"
         }
     }
 }
