@@ -22,8 +22,8 @@ class rth_attribute_price_update extends StdModule
         $this->addKey('CSS_SELECTOR_PRICE_OLD');
         $this->addKey('CSS_SELECTOR_PRICE_VPE');
 
-        $this->addAction('update', 'Update');
-        $this->checkForUpdate();
+        //$this->addAction('update', 'Update');
+        $this->checkForUpdate(true);
     }
 
     public function display()

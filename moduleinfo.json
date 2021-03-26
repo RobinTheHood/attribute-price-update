@@ -16,7 +16,7 @@
 
     "require": {
         "composer/autoload": "^1.0.0",
-        "robinthehood/modified-std-module": "^0.6.0"
+        "robinthehood/modified-std-module": "^0.6.1"
     },
 
     "modifiedCompatibility": [
